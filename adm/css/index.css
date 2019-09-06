@@ -1,0 +1,15 @@
+.card-inicio{
+    background-color: #DB1F1A !important;
+    height: 160px;
+    border-radius: 0.25rem;
+    box-shadow: 1px 1px 3px #000;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.card-inicio:hover{
+    background-color: #DD4B39 !important;
+    transform: scale(0.99, 0.99);
+    transition: 0.2s;
+
+}

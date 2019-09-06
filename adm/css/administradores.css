@@ -1,0 +1,41 @@
+.card-info{
+    box-shadow: 0px -1px 3px #fff;
+}
+a{
+    cursor: pointer;
+}
+.btn-editar{
+    color: #fff !important;
+    background-color: #E88524;
+    border-radius: 0.25rem;
+    transition: 0.2s;
+}
+.btn-editar:hover{
+    background-color: #F6BB4E;
+    transition: 0.2s;
+}
+
+.btn-excluir{
+    color: #fff !important;
+    background-color: #c82333;
+    border-radius: 0.25rem;
+    transition: 0.2s;
+}
+.btn-excluir:hover{
+    background-color: #DD4B39;
+    transition: 0.2s;
+}
+
+.btn-salvar{
+    color: #fff !important;
+    background-color: #006aa6;
+    border-radius: 0.25rem;
+    transition: 0.2s;
+}
+.btn-salvar:hover{
+    background-color: #007bff;
+    transition: 0.2s;
+}
+.error{
+    color: #DD4B39;
+}

@@ -1,0 +1,13 @@
+{
+    "name": "raul/socios-aesb",
+    "description": "Portal de socios da aesb",
+    "authors": [
+        {
+            "name": "Inpactus Tecnologia",
+            "email": "inpactustecnologia@gmail.com"
+        }
+    ],
+    "require": {
+        "pagarme/pagarme-php": "^3.7"
+    }
+}

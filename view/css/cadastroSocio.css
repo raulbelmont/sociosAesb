@@ -1,0 +1,181 @@
+a:hover{
+    text-decoration: none !important;
+}
+/*cabeçalho*/
+.cabecalho{
+    background-color: #006aa6;
+    border-bottom: 2px solid #c82333;
+}
+.logo-menu{
+    max-width: 94px;
+    max-height: 94px;
+}
+
+/*main*/
+.formulario-cadastro label{
+    text-transform: uppercase;
+}
+.foto-perfil{
+    background-color: #fff;
+    box-shadow: 1px 1px 3px #000;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.foto-perfil:hover{
+    box-shadow: 2px 2px 3px #000;
+    color: #c82333;
+    transition: 0.2s;
+}
+.image-holder{
+    max-width: 150px !important;
+    max-height: 150px;
+}
+
+.btn-voltar{
+    background-color: #006aa6;
+    box-shadow: 1px 1px 3px #000;
+    border-radius: 0.25rem;
+    color: #fff;
+}
+.btn-voltar:hover{
+    background-color: #0062cc;
+    color: #fff;
+}
+.btn-continuar{
+    background-color: #DB1F1A;
+    color: #fff;
+    box-shadow: 1px 1px 3px #000;
+    border-radius: 0.25rem;
+    border:none;
+}
+
+.error{
+    color: #c82333;
+}
+
+
+/*rodapé*/
+#scroll-top{
+    z-index: 2;
+    cursor: pointer;
+    border: 2px solid #006aa6;
+    border-bottom: none;
+    color: #000 !important;
+    background-color: #fff;
+    right: 10px;
+    bottom: 1px;
+    border-radius: 0.25rem 0.25rem 0 0;
+    display: none;
+}
+
+.rodape-social{
+    background-color: #fff;
+    color: #000;
+}
+.titulo-social span{
+    color: #DB1F1A;
+}
+.media-sociais li a {
+    display:inline-block;
+    margin:0 auto 0 auto;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    border-radius:50%;
+    text-align:center;
+    width: 40px;
+    height: 40px;
+    font-size:20px;
+}
+
+.media-sociais li i {
+    margin:0;
+    line-height:50px;
+    text-align: center;
+}
+.media-sociais li a:hover{
+    color: #fff;
+}
+.media-sociais li a:hover{
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -ms--transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    transition: all 0.2s;
+}
+.media-sociais i {
+    color: #fff;
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    -ms-transition: all 0.8s;
+    transition: all 0.8s;
+}
+
+.botao-facebook{
+    background-color:#3B5998;
+}
+.botao-instagram{
+    background-color: #2E5E86;
+}
+.botao-twitter{
+    background-color: #55ACEE;
+}
+.botao-youtube{
+    background-color: #ED302F;
+}
+.botao-gplus{
+    background-color: #DD4B39;
+}
+
+.menu-footer{
+    background-color: #c82333;
+}
+.menu-footer div{
+    position: relative;
+}
+.menu-footer li{
+    position: relative;
+}
+.menu-footer a{
+    color: #fff;
+}
+.menu-footer a:hover{
+    color: #006aa6;
+}
+.do::before{
+    content: '';
+    position: absolute;
+    top: 9px;
+    left: -11px;
+    width: 5px;
+    height: 5px;
+    background-color: #fff;
+    border-radius: 0.25rem;
+}
+
+.rodape-final{
+    background-color: #006aa6;
+}
+.imagem-rodape{
+    width: 80px;
+    height: 92px;
+}
+.logo-inpactus{
+    width: 130px;
+    height: 58px;
+    bottom: 0;
+}
+.contato{
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+}
+@media (min-width: 992px) {
+    .contato{
+        border: none;
+    }
+}

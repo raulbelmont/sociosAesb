@@ -1,0 +1,66 @@
+body{
+    position: relative;
+    height: 100% !important;
+}
+main{
+    margin-top: 101px;
+}
+a:hover {
+    text-decoration: none;
+}
+.menu-inicio{
+    background-color: rgba(0,106,166, 1);
+    z-index: 1;
+}
+.usuario a:hover{
+    color: #DB1F1A !important;
+}
+.toggle-menu-abir{
+    cursor: pointer;
+}
+.toggle-menu-fechar{
+    cursor: pointer;
+}
+.logo-menu{
+    max-width: 94px;
+    max-height: 94px;
+}
+.menu{
+    position: fixed;
+    background-color: rgba(0,106,166,1);
+    display: none;
+    margin-top: 102px;
+    max-height: 550px;
+    overflow-y: auto;
+    z-index: 1;
+
+}
+
+@media (max-width: 992px){
+    .menu{
+        max-height: 300px;
+        overflow-y: auto;
+    }
+}
+
+@media (max-width: 768px){
+    .menu{
+        max-height: 350px;
+        overflow-y: auto;
+    }
+}
+
+@media (max-width: 576px){
+    .menu{
+        max-height: 300px;
+        overflow-y: auto;
+    }
+}
+.menu a{
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointer;
+}
+.menu a:hover{
+    background-color: #007bff;
+}

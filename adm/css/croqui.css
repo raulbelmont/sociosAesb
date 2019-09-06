@@ -1,0 +1,91 @@
+a{
+    cursor: pointer;
+}
+.btn-editar{
+    color: #fff !important;
+    background-color: #E88524;
+    border-radius: 0.25rem;
+    transition: 0.2s;
+}
+.btn-editar:hover{
+    background-color: #F6BB4E;
+    transition: 0.2s;
+}
+
+.btn-excluir{
+    color: #fff !important;
+    background-color: #c82333;
+    border-radius: 0.25rem;
+    transition: 0.2s;
+}
+.btn-excluir:hover{
+    background-color: #DD4B39;
+    transition: 0.2s;
+}
+
+.btn-salvar{
+    color: #fff !important;
+    background-color: #006aa6;
+    border-radius: 0.25rem;
+    transition: 0.2s;
+    border: none !important;
+    cursor: pointer;
+}
+.btn-salvar:hover{
+    background-color: #007bff;
+    transition: 0.2s;
+}
+
+.bloco{
+    background-color: #c82333;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.bloco:hover{
+    transition: 0.2s;
+    box-shadow: 1px 1px 3px #000;
+    transform: scale(1.001 , 1.001);
+}
+
+.cadeira{
+    border-radius: 0.25rem !important;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.cadeira:hover{
+    transition: 0.2s;
+    box-shadow: 0px -1px 3px #fff;
+    transform: scale(1.001 , 1.001);
+}
+.ativo{
+    display: block;
+}
+.fade{
+    display: none;
+}
+
+.bg-dark-100{
+    background-color: #2D2D2D;
+}
+
+.bg-dark-50{
+    background-color: #343a40;
+}
+
+.bg-cadeira-cativa{
+    background-color: #006aa6;
+}
+.bg-cadeira-vazia{
+    background-color: #28a745 ;
+}
+.bg-cadeira-reservada{
+    background-color: #E88524;
+}
+.bg-cadeira-cativa-reservada{
+    background-color: #c82333;
+}
+
+.error{
+    color: #DD4B39;
+}

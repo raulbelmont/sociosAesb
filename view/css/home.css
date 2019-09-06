@@ -1,0 +1,357 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+
+}
+a:hover{
+    text-decoration: none;
+
+}
+.menu-topo{
+    background-color: #006aa6;
+    height: 100px;
+    z-index: 2;
+
+}
+.logo-menu{
+    max-width: 94px;
+    max-height: 94px;
+}
+.toggle-menu-abir{
+    cursor: pointer;
+}
+.toggle-menu-fechar{
+    cursor: pointer;
+}
+.btn-login{
+    color: #fff !important;
+    text-transform: uppercase !important;
+}
+.btn-login:hover{
+    text-decoration: none !important;
+    color: #DB1F1A !important;
+    cursor: pointer;
+}
+
+.menu{
+    z-index: 2;
+    background-color: #006aa6;
+    box-shadow: 1px -1px 2px #000;
+    width: 250px;
+    height: 100%;
+    left: 0;
+    margin-top: 100px;
+    position: fixed;
+    display: none;
+
+}
+.menu a{
+    color: #fff;
+    text-transform: uppercase;
+    border-bottom: 1px solid #adb5bd !important;
+    border-radius: 0 !important;
+}
+.menu a:hover{
+    background-color: #DB1F1A;
+    border: none;
+}
+main{
+    margin-top: 100px;
+}
+/*.apresentacao{*/
+    /*background-image: url("../image/fundo-inicio.jpg");*/
+    /*background-size: contain;*/
+    /*background-repeat: no-repeat;*/
+
+/*}*/
+.titulo-planos{
+
+}
+.row-planos{
+    background-color: #C20C18;
+}
+.plano-card{
+
+}
+.card{
+    border: none;
+    box-shadow: 1px 1px 3px #ff0000;
+}
+.card-header{
+    background-color: #006aa6;
+    color: #fff;
+}
+.card-body p{
+    color: #006aa6;
+}
+.card-body h1{
+    color: #DB1F1A;
+}
+.card-body span{
+    color: #DB1F1A;
+}
+.btn-associarse{
+    cursor: pointer;
+    color: #fff !important;
+    background-color: #DB1F1A;
+    border-radius: 0.25rem;
+    transition: 0.2s;
+}
+.btn-associarse:hover{
+    transition: 0.2s;
+    background-color: #C20C18;
+}
+.btn-informacoes{
+    cursor: pointer;
+}
+.btn-informacoes:hover{
+    color: #006aa6 !important;
+}
+.footer-card{
+    display: none;
+    padding-left: 15px;
+    border-top: 1px solid #adb5bd;
+}
+
+/*Row vantagens*/
+.row-vantagens{
+    background-color: #E6E6E6;
+
+}
+.card-vantagem{
+    background-color: #C20C18;
+    border-radius: 0.25rem;
+    box-shadow: 1px 1px 3px #000;
+    height: 200px !important;
+    transition: 0.2s;
+}
+.card-vantagem:hover{
+    background-color: #DB1F1A;
+    transition: 0.2s;
+}
+.row-vantagens-footer{
+    background-color: #006aa6;
+    border-radius: 0.25rem;
+}
+.row-vantagens a{
+    color: #fff;
+    transition: 0.2s;
+    background-color: #c82333;
+    border-radius: 0.25rem;
+}
+.row-vantagens a:hover{
+    color: #fff;
+    background-color: #DB1F1A;
+}
+
+/*rodapé*/
+#scroll-top{
+    z-index: 2;
+    cursor: pointer;
+    border: 2px solid #006aa6;
+    border-bottom: none;
+    color: #000 !important;
+    background-color: #fff;
+    right: 10px;
+    bottom: 1px;
+    border-radius: 0.25rem 0.25rem 0 0;
+    display: none;
+}
+
+.rodape-social{
+    background-color: #fff;
+    color: #000;
+}
+.titulo-social span{
+    color: #DB1F1A;
+}
+.media-sociais li a {
+    display:inline-block;
+    margin:0 auto 0 auto;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    border-radius:50%;
+    text-align:center;
+    width: 40px;
+    height: 40px;
+    font-size:20px;
+}
+
+.media-sociais li i {
+    margin:0;
+    line-height:50px;
+    text-align: center;
+}
+.media-sociais li a:hover{
+    color: #fff;
+}
+.media-sociais li a:hover{
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -ms--transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    transition: all 0.2s;
+}
+.media-sociais i {
+    color: #fff;
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    -ms-transition: all 0.8s;
+    transition: all 0.8s;
+}
+
+.botao-facebook{
+    background-color:#3B5998;
+}
+.botao-instagram{
+    background-color: #2E5E86;
+}
+.botao-twitter{
+    background-color: #55ACEE;
+}
+.botao-youtube{
+    background-color: #ED302F;
+}
+.botao-gplus{
+    background-color: #DD4B39;
+}
+
+.menu-footer{
+    background-color: #c82333;
+}
+.menu-footer div{
+    position: relative;
+}
+.menu-footer li{
+    position: relative;
+}
+.menu-footer a{
+    color: #fff;
+}
+.menu-footer a:hover{
+    color: #006aa6;
+}
+.do::before{
+    content: '';
+    position: absolute;
+    top: 9px;
+    left: -11px;
+    width: 5px;
+    height: 5px;
+    background-color: #fff;
+    border-radius: 0.25rem;
+}
+
+.rodape-final{
+    background-color: #006aa6;
+}
+.imagem-rodape{
+    width: 80px;
+    height: 92px;
+}
+.logo-inpactus{
+    width: 130px;
+    height: 58px;
+    bottom: 0;
+}
+.contato{
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+}
+
+.modal{
+    background-color: rgba(0,0,0,0.6) ;
+}
+.btn-modal img{
+    transition: 0.3s;
+    box-shadow: 0px 1px 3px #000;
+}
+.btn-modal img:hover{
+    transition: 0.3s;
+    box-shadow: 0px 3px 3px #000;
+    transform: scale(1.01,1.01);
+}
+.titulo-modal{
+    color: #006aa6;
+}
+.btn-entrar{
+    color: #fff;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 0.25rem;
+    background-color: #006aa6;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.btn-recuperar-seha{
+    color: #006aa6 !important;
+    cursor: pointer;
+}
+.btn-recuperar-seha:hover{
+    color: #005cbf !important;
+}
+.btn-entrar:hover{
+    background-color: #007bff;
+    transition: 0.2s;
+}
+.error{
+    color: #DB1F1A;
+}
+.spin-login{
+    display: none;
+}
+#alerta-erro{
+    display: none;
+    border-radius: 0.25rem;
+}
+
+/*modal de recuperar senha*/
+.spin-recuperar-senha{
+    display: none;
+}
+#alerta-erro-senha{
+    display: none;
+    border-radius: 0.25rem;
+}
+.btn-entrar-senha{
+    color: #fff;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 0.25rem;
+    background-color: #006aa6;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.btn-entrar-senha:hover{
+    background-color: #007bff;
+    transition: 0.2s;
+}
+.sucesso-recuperar-senha{
+    display: none;
+}
+.verfica-email{
+    color: #006aa6 !important;
+}
+@media (min-width: 1200px) {
+    .modal-xl {
+        max-width: 1100px !important;
+    }
+}
+@media (min-width: 992px) {
+    .footer-card{
+        display: block;
+    }
+    .contato{
+        border: none;
+    }
+}
+@media (min-width: 576px) {
+
+}
+
